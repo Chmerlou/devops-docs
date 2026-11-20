@@ -1,0 +1,12 @@
+﻿site_name: devops operations handbook
+site_description: учебная документация по проверке и публикации изменений
+site_author: "chemodanov d."
+repo_name: chmerlou/devops-docs
+repo_url: https://github.com/chmerlou/devops-docs
+theme:
+  name: mkdocs
+  locale: ru
+nav:
+  - главная: index.md
+  - эксплуатация: runbook.md
+  - журнал инцидентов: incidents.md
