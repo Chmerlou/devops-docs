@@ -28,3 +28,5 @@ jobs:
           python -m pip install -r requirements-dev.txt
       - name: static analysis
         run: python -m pylint src/status.py --score=no
+      - name: validate documentation
+        run: mkdocs build --strict --site-dir /tmp/docs-site
